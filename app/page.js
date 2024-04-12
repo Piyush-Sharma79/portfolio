@@ -17,7 +17,7 @@ import { useState } from 'react';
 
 
 export default function Home() {
-  const [darkMode, setDarkMode]  = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? 'dark' : ''}>
       <main className='dark:bg-[#111827] bg-green-100 px-10 md:px-20 lg:px-40 '>
@@ -26,7 +26,7 @@ export default function Home() {
             <h1 className='text-xl font-burtons dark:text-white'>Piyush</h1>
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill onClick = {()=>setDarkMode(!darkMode)}className='cursor-pointer text-2xl dark:invert' />
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:invert' />
               </li>
               <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a></li>
             </ul>
@@ -35,7 +35,7 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 dark:text-teal-400 font-medium md:text-6xl'>Piyush</h2>
             <h3 className='text-2xl py-2 dark:text-white'>Developer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus totam velit veniam deserunt quam soluta ipsam delectus possimus, earum esse. Adipisci repellendus magnam accusantium sequi vitae pariatur corporis est doloremque?
+            I code beautifully simple things, and I love what I do.
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:invert'>

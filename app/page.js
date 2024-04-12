@@ -39,7 +39,7 @@ export default function Home() {
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:invert'>
-            <AiFillTwitterCircle />
+            <a href="https://twitter.com/PiyushShar70725"><AiFillTwitterCircle /></a>
             <AiFillLinkedin />
             <AiFillYoutube />
           </div>

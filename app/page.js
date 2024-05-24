@@ -22,7 +22,7 @@ export default function Home() {
     <div className={darkMode ? 'dark' : ''}>
       <main className='dark:bg-[#111827] bg-green-100 px-10 md:px-20 lg:px-40 '>
         <section className="min-h-screen">
-          <nav className='py-10 mb-12 flex justify-between'>
+          <nav className='py-10 flex justify-between'>
             <h1 className='text-xl font-burtons dark:text-white'>Piyush</h1>
             <ul className='flex items-center'>
               <li>
@@ -31,10 +31,10 @@ export default function Home() {
               <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a></li>
             </ul>
           </nav>
-          <div className='text-center p-10 '>
+          <div className='text-center p-4 '>
             <h2 className='text-5xl py-2 text-teal-600 dark:text-teal-400 font-medium md:text-6xl'>Piyush</h2>
             <h3 className='text-2xl py-2 dark:text-white'>Full Stack Developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>
+            <p className='text-md text-9xl py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>
             I code beautifully simple things, and I love what I do.
             </p>
           </div>
@@ -42,14 +42,14 @@ export default function Home() {
             <AiFillTwitterCircle />
             <AiFillLinkedin />
           </div>
-          <div className='relative  mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
+          <div className='relative  mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96'>
             <Image src={deved} layout="fill" objectFit='cover' />
           </div>
         </section>
 
         <section>
           <div>
-            <h3 className='text-3xl py-1 ark:text-white dark:text-white'>Things I do</h3>
+            <h3 className='text-3xl py-1 ark:text-white dark:text-white font-serif'>Things I do</h3>
             <p className='text-md py-2 leading-8 text-gray-80 dark:text-white'>
             I'm a Full Stack Developer working remotely from New Delhi, India.
             </p>
@@ -115,10 +115,9 @@ export default function Home() {
               Work
             </h3>
             <p className='text-md py-2 leading-8 text-gray-80 dark:text-white'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum non tenetur <span className='text-teal-500'>molestiae</span> nesciunt ex excepturi, dolores tempora nihil sapiente cupiditate sequi sunt laboriosam recusandae accusantium ipsa hic cum itaque atque.
-            </p>
-            <p className='dark:text-white'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto sint quod modi eius nisi a, iste quis eos cumque error officia iure nobis harum, expedita, et accusantium sequi nulla aspernatur?
+              I have worked on a variety of projects, ranging from small websites to large web applications. Here are a few of my recent projects.
+              You can find their source code on my 
+              <a href='https://github.com/Piyush-Sharma79' className='text-teal-500'> GitHub.</a> 
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>

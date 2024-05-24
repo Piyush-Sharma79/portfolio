@@ -59,7 +59,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1 bg-sky-100">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 bg-sky-100">
               <div className='flex justify-center'>
                 <Image src={design} width={100} height={100} />
               </div>

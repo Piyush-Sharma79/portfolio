@@ -1,6 +1,6 @@
 "use client";
 import { BsFillMoonStarsFill } from 'react-icons/bs';
-import { AiFillTwitterCircle, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
 import Image from 'next/image';
 import deved from '../public/dev-ed-wave.png';
 import design from '../public/design.png';
@@ -41,7 +41,6 @@ export default function Home() {
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:invert'>
             <AiFillTwitterCircle />
             <AiFillLinkedin />
-            <AiFillYoutube />
           </div>
           <div className='relative  mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={deved} layout="fill" objectFit='cover' />
@@ -50,7 +49,7 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className='text-3xl py-1 ark:text-white dark:text-white'>Services I offer</h3>
+            <h3 className='text-3xl py-1 ark:text-white dark:text-white'>Things I do</h3>
             <p className='text-md py-2 leading-8 text-gray-80 dark:text-white'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum non tenetur <span className='text-teal-500'>molestiae</span> nesciunt ex excepturi, dolores tempora nihil sapiente cupiditate sequi sunt laboriosam recusandae accusantium ipsa hic cum itaque atque.
             </p>
@@ -113,7 +112,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className='text-3xl py-1 dark:text-white'>
-              Portfolio
+              Work
             </h3>
             <p className='text-md py-2 leading-8 text-gray-80 dark:text-white'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum non tenetur <span className='text-teal-500'>molestiae</span> nesciunt ex excepturi, dolores tempora nihil sapiente cupiditate sequi sunt laboriosam recusandae accusantium ipsa hic cum itaque atque.
@@ -126,6 +125,11 @@ export default function Home() {
             <div className='basis-1/3 flex-1'><Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></div>
             <div className='basis-1/3 flex-1'><Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></div>
             <div className='basis-1/3 flex-1'><Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></div>
+            </div>
+            <h3 className='text-3xl py-1 dark:text-white'>
+              In Progress
+            </h3>
+          <div className='flex flex-col gap-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'><Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></div>
             <div className='basis-1/3 flex-1'><Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></div>
             <div className='basis-1/3 flex-1'><Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></div>

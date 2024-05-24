@@ -88,7 +88,7 @@ export default function Home() {
               </p>
               <br></br>
               <br></br>
-              <h4 className="py-4 text-teal-600">Stack I use</h4>
+              <h4 className=" py-4 text-teal-600">Stack I use</h4>
               <p className="text-gray-800 py-1">Mongo or Postgres as Database</p>
               <p className="text-gray-800 py-1">Express & Node</p>
               <p className="text-gray-800 py-1">Next/React </p>

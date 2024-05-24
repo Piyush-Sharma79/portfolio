@@ -51,10 +51,10 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-1 ark:text-white dark:text-white'>Things I do</h3>
             <p className='text-md py-2 leading-8 text-gray-80 dark:text-white'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum non tenetur <span className='text-teal-500'>molestiae</span> nesciunt ex excepturi, dolores tempora nihil sapiente cupiditate sequi sunt laboriosam recusandae accusantium ipsa hic cum itaque atque.
+            I'm a Full Stack Developer working remotely from New Delhi, India.
             </p>
             <p className='dark:text-white'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto sint quod modi eius nisi a, iste quis eos cumque error officia iure nobis harum, expedita, et accusantium sequi nulla aspernatur?
+            I have a passion for web design and love to create for web and mobile devices. I have a strong foundation in web development and design and I am always looking to learn more and improve my skills.
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -66,14 +66,13 @@ export default function Home() {
                 Beautiful Designs
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+                I create beautiful designs for websites and mobile applications that are easy to use and visually appealing using my frontend skills
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
+              <h4 className="py-4 text-teal-600">Design Tools & frontend frameworks I Use</h4>
               <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">React</p>
+              <p className="text-gray-800 py-1">Tailwind CSS</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 bg-sky-100">
               <div className='flex justify-center'>
@@ -86,20 +85,20 @@ export default function Home() {
                 Do you have an idea for your next great website? Let's make it a
                 reality.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h3 className="py-4 text-teal-600">Stack I use</h3>
+              <p className="text-gray-800 py-1">Mongo or Postgres as Database</p>
+              <p className="text-gray-800 py-1">Express & Node</p>
+              <p className="text-gray-800 py-1">Next/React </p>
+              <p className="text-gray-800 py-1">Svelte & Svelte Kit</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 bg-sky-100">
               <div className='flex justify-center'>
                 <Image src={consulting} width={100} height={100} />
               </div>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Backend & Security </h3>
               <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
+                I bulid highly scalable and secure backend for your web applications using Node, Express, and MongoDB or Postgres.
+                
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
               <p className="text-gray-800 py-1">Photoshop</p>

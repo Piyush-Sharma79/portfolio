@@ -6,7 +6,7 @@ import deved from '../public/dev-ed-wave.png';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/2166823.png';
-import web1 from '../public/web1.png';
+import web1 from '../public/1.png';
 import web2 from '../public/web2.png';
 import web3 from '../public/web3.png';
 import web4 from '../public/web4.png';
@@ -23,7 +23,7 @@ export default function Home() {
       <main className='dark:bg-[#111827] bg-green-100 px-10 md:px-20 lg:px-40 '>
         <section className="min-h-screen">
           <nav className='py-10 flex justify-between'>
-            <h1 className='text-xl font-burtons dark:text-white'>Piyush</h1>
+            <h1 className='text-xl dark:text-white'>Piyush</h1>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:invert' />
@@ -35,7 +35,7 @@ export default function Home() {
           <div className='text-center p-4 '>
             <h2 className='text-5xl py-2 text-teal-600 dark:text-teal-400 font-medium md:text-6xl'>Piyush</h2>
             <h3 className='text-2xl py-2 dark:text-white'>Full Stack Developer</h3>
-            <p className='text-md text-9xl py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>
             I code beautifully simple things, and I love what I do.
             </p>
           </div>
@@ -43,23 +43,23 @@ export default function Home() {
             <AiFillTwitterCircle />
             <AiFillLinkedin />
           </div>
-          <div className='relative  mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96'>
+          <div className='relative mt-3 mx-auto bg-gradient-to-b from-teal-500 rounded-full w-[250px] h-[250px] overflow-hidden'>
             <Image src={deved} layout="fill" objectFit='cover' />
           </div>
         </section>
 
         <section>
           <div>
-            <h3 className='text-3xl py-1 ark:text-white dark:text-white font-serif'>Things I do</h3>
-            <p className='text-md py-2 leading-8 text-gray-80 dark:text-white'>
+            <h3 className='py-1 ark:text-white dark:text-white text-center mt-2 text-4xl font-bold text-teal-600'>Things I Do</h3>
+            <p className='text-md py-2 leading-8 text-gray-80 dark:text-white text-center'>
             I'm a Full Stack Developer working remotely from New Delhi, India.
             </p>
-            <p className='dark:text-white'>
+            <p className='dark:text-white text-center'>
             I have a passion for web design and love to create for web and mobile devices. I have a strong foundation in web development and design and I am always looking to learn more and improve my skills.
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 bg-sky-100">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-sky-200 bg-sky-100">
               <div className='flex justify-center'>
                 <Image src={design} width={100} height={100} />
               </div>
@@ -75,7 +75,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">React</p>
               <p className="text-gray-800 py-1">Tailwind CSS</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 bg-sky-100">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-sky-200 flex-1 bg-sky-100">
               <div className='flex justify-center'>
                 <Image src={code} width={100} height={100} />
               </div>
@@ -94,7 +94,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Next/React </p>
               <p className="text-gray-800 py-1">Svelte & Svelte Kit</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 bg-sky-100">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-sky-200 flex-1 bg-sky-100">
               <div className='flex justify-center'>
                 <Image src={consulting} width={100} height={100} />
               </div>
@@ -112,10 +112,10 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1 dark:text-white'>
+            <h3 className='text-4xl font-bold py-1 dark:text-white text-center text-teal-600'>
               Work
             </h3>
-            <p className='text-md py-2 leading-8 text-gray-80 dark:text-white'>
+            <p className='text-md py-2 leading-8 text-gray-80 dark:text-white text-center'>
               I have worked on a variety of projects, ranging from small websites to large web applications. Here are a few of my recent projects.
               You can find their source code on my 
               <a href='https://github.com/Piyush-Sharma79' className='text-teal-500'> GitHub.</a> 
@@ -126,9 +126,12 @@ export default function Home() {
             <div className='basis-1/3 flex-1'><Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></div>
             <div className='basis-1/3 flex-1'><Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></div>
             </div>
-            <h3 className='text-3xl py-1 dark:text-white'>
+            <h3 className='text-4xl font-bold py-1 dark:text-white text-center text-teal-600'>
               In Progress
             </h3>
+            <p className='text-md py-2 leading-8 text-gray-80 dark:text-white text-center mb-9'>
+              Here are a few of my recent projects that are in progress.
+            </p>
           <div className='flex flex-col gap-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'><Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></div>
             <div className='basis-1/3 flex-1'><Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></div>

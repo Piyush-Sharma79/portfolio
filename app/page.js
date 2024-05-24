@@ -85,7 +85,9 @@ export default function Home() {
                 Do you have an idea for your next great website? Let's make it a
                 reality.
               </p>
-              <h3 className="py-4 text-teal-600">Stack I use</h3>
+              <br></br>
+              <br></br>
+              <h4 className="py-4 text-teal-600">Stack I use</h4>
               <p className="text-gray-800 py-1">Mongo or Postgres as Database</p>
               <p className="text-gray-800 py-1">Express & Node</p>
               <p className="text-gray-800 py-1">Next/React </p>
@@ -98,9 +100,9 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 ">Backend & Security </h3>
               <p className="py-2">
                 I bulid highly scalable and secure backend for your web applications using Node, Express, and MongoDB or Postgres.
-                
+
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
+              <h4 className="py-4 text-teal-600">Backend </h4>
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>

@@ -71,7 +71,7 @@ export default function Home() {
           </section>
 
           <section>
-            <div class="py-3">
+            <div className="py-3">
               <h3 className='pt-8 py-5 ark:text-white text-center mt-2 text-4xl font-bold text-teal-600'>Things I Do</h3>
               <p className='text-md py-2 leading-8 text-gray-80 dark:text-white text-center text-xl'>
                 I'm a Full Stack Developer working remotely from New Delhi, India.
@@ -145,13 +145,13 @@ export default function Home() {
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className='rounded-lg shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-700'>
-                <p class="py-2 text-2xl text-center font-semibold text-teal-800">Polls Project - Svelte</p>
+                <p className="py-2 text-2xl text-center font-semibold text-teal-800">Polls Project - Svelte</p>
                 <Image src={web1} className='rounded-lg object-fit flex-1' width={'100%'} height={'100%'} layout='responsive' /></div>
-              <div className='rounded-lg shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-700'>              <p class="py-2 text-2xl text-center font-semibold text-teal-800">E-commerce - MERN</p>
+              <div className='rounded-lg shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-700'>              <p className="py-2 text-2xl text-center font-semibold text-teal-800">E-commerce - MERN</p>
                 <Image src={web2} className='rounded-lg object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' /></div>
-              <div className='rounded-lg shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-700'>              <p class="py-2 text-2xl text-center font-semibold text-teal-800">Blogging</p>
+              <div className='rounded-lg shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-700'>              <p className="py-2 text-2xl text-center font-semibold text-teal-800">Blogging</p>
                 <Image src={web3} className='rounded-lg object2cover flex-1' width={'100%'} height={'100%'} layout='responsive' /></div>
-              <div className='rounded-lg shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-700'>              <p class="py-2 text-2xl text-center font-semibold text-teal-800">Task App - MERN</p>
+              <div className='rounded-lg shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-700'>              <p className="py-2 text-2xl text-center font-semibold text-teal-800">Task App - MERN</p>
                 <Image src={web4} className='rounded-lg object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' /></div>
             </div>
             <h3 className='text-4xl font-bold py-1 text-center text-teal-600'>
@@ -161,8 +161,8 @@ export default function Home() {
               Here are a few of my recent projects that are in progress.
             </p>
             <div className='flex flex-col gap-10 lg:flex-row lg:flex-wrap py-9'>
-              <div className='rounded-lg shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-700'>              <p class="py-2 text-2xl text-center font-semibold text-teal-800">Leetcode Clone</p><Image src={web5} className='rounded-lg object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' /></div>
-              <div className='rounded-lg shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-700'><p class="py-2 text-2xl text-center font-semibold text-teal-600">PayTm</p><Image src={web6} className='rounded-lg object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' /></div>
+              <div className='rounded-lg shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-700'>              <p className="py-2 text-2xl text-center font-semibold text-teal-800">Leetcode Clone</p><Image src={web5} className='rounded-lg object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' /></div>
+              <div className='rounded-lg shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-700'><p className="py-2 text-2xl text-center font-semibold text-teal-600">PayTm</p><Image src={web6} className='rounded-lg object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' /></div>
             </div>
           </section>
         </main>

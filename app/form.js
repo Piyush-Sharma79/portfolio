@@ -1,6 +1,23 @@
+import React, {useRef} from 'react';
+import emailjs from '@emailjs/browser';
+
 export default function Form(props) {
 
     const { setShowform } = props;
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_y7etebz', 'contact_id', form.current, {publicKey : 't-WwQ3H8W3GJ3Ukp5'})
+        .then(() => {
+            console.log('Email sent');
+        }, (error) => {
+            console.log(error.text);
+        },
+      );
+    }
 
     return (
       <>
@@ -17,7 +34,7 @@ to say hello? Go ahead.
           <p onClick={()=> setShowform(!showform)}></p>
   
           <div className="mt-10 sm:w-full sm:max-w-sm">
-            <form className="space-y-6" action="#" method="POST">
+            <form className="space-y-6" onSubmit={sendEmail}>
               <div>
                 <label htmlFor="name" className="block text-sm font-medium leading-6 text-gray-900">
                     Your name
@@ -25,7 +42,7 @@ to say hello? Go ahead.
                 <div className="mt-2">
                     <input
                         id="name"
-                        name="name"
+                        name="user_name"
                         type="text"
                         autoComplete="name"
                         required
@@ -38,7 +55,7 @@ to say hello? Go ahead.
                 <div className="mt-2">
                   <input
                     id="email"
-                    name="email"
+                    name="user_email"
                     type="email"
                     autoComplete="email"
                     required

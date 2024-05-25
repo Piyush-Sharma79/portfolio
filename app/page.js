@@ -31,12 +31,12 @@ export default function Home() {
   }
 
   return (
-    <div className={darkMode ? 'dark relative' : 'relative'} onClick={closeForm}>
+    <div className={darkMode ? 'dark relative' : 'relative'}>
       <div className={showForm ? 'form' : ''}>
       <div className = "absolute top-24 right-8 bg-slate-300 rounded-xl z-20">
         {showForm && <Form setShowForm={setShowForm}/>}
       </div>
-      <main className='dark:bg-[#111827] form:bg-[#000000cc] bg-green-100 px-10 md:px-20 lg:px-40'>
+      <main className='dark:bg-[#111827] onClick={closeForm} form:bg-[#000000cc] bg-green-100 px-10 md:px-20 lg:px-40 '>
         <section className="min-h-screen">
           <nav className='py-10 flex justify-between'>
             <h1 className='text-xl dark:text-white font-'>Piyush</h1>

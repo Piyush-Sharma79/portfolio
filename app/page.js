@@ -85,13 +85,13 @@ export default function Home() {
                 <div className='flex justify-center'>
                   <Image src={design} width={100} height={100} />
                 </div>
-                <h3 className="text-xl font-medium pt-8 pb-2  ">
+                <h3 className="text-xl font-acorn text-emerald-800 font-medium pt-8 pb-2">
                   Beautiful Designs
                 </h3>
                 <p className="py-2 text-lg">
                   I create beautiful designs for websites and mobile applications that are easy to use and visually appealing using my frontend skills
                 </p>
-                <h4 className="py-4 text-teal-600 text-xl">Design Tools & frontend frameworks I Use</h4>
+                <h4 className="py-4 font-acorn text-teal-600 text-xl">Design Tools & frontend frameworks I Use</h4>
                 <p className="text-gray-800 py-1 text-lg">Figma</p>
                 <p className="text-gray-800 py-1 text-lg">Photoshop</p>
                 <p className="text-gray-800 py-1 text-lg">React</p>
@@ -101,7 +101,7 @@ export default function Home() {
                 <div className='flex justify-center'>
                   <Image src={code} width={100} height={100} />
                 </div>
-                <h3 className="text-xl font-medium pt-8 pb-2 ">
+                <h3 className="text-xl font-acorn text-emerald-800 font-medium pt-8 pb-2">
                   Code your dream project
                 </h3>
                 <p className="py-2 text-lg">
@@ -110,7 +110,7 @@ export default function Home() {
                 </p>
                 <br></br>
                 <br></br>
-                <h4 className=" py-4 text-teal-600 text-xl">Stack I use</h4>
+                <h4 className=" py-4 font-acorn text-teal-600 text-xl">Stack I use</h4>
                 <p className="text-gray-800 py-1 text-lg">Mongo or Postgres as Database</p>
                 <p className="text-gray-800 py-1 text-lg">Express & Node</p>
                 <p className="text-gray-800 py-1 text-lg">Next/React </p>
@@ -120,12 +120,12 @@ export default function Home() {
                 <div className='flex justify-center'>
                   <Image src={consulting} width={100} height={100} />
                 </div>
-                <h3 className="text-xl font-medium pt-8 pb-2 ">Backend & Security </h3>
+                <h3 className="text-xl font-acorn text-emerald-800 font-medium pt-8 pb-2 ">Backend & Security </h3>
                 <p className="py-2 text-lg">
                   I bulid highly scalable and secure backend for your web applications using Node, Express, and MongoDB or Postgres.
 
                 </p>
-                <h4 className="py-4 text-teal-600 text-xl">Backend </h4>
+                <h4 className="py-4 font-acorn text-teal-600 text-xl">Backend </h4>
                 <p className="text-gray-800 py-1 text-lg">scalable</p>
                 <p className="text-gray-800 py-1 text-lg">Fast</p>
                 <p className="text-gray-800 py-1 text-lg">Secure</p>

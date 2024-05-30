@@ -28,6 +28,10 @@
 
   font-family: "burtons";
   src: url('../public/Burtons.otf');
+
+  font-family : 'acorn';
+  src: url('../public/acorn-Bold.otf');
+
 }
 
 

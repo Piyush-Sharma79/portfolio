@@ -12,7 +12,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
+        burtons : 'burtons',
         cascadia: 'cascadia',
+        acorn: 'acorn'
       }
     },
   },

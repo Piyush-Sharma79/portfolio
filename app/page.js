@@ -35,8 +35,8 @@ export default function Home() {
   return (
     <div className={darkMode ? 'dark relative font-eurostile' : 'relative font-eurostile'}>
       <div className={showForm ? 'form' : ''}>
-        <div className="absolute top-24 right-8 bg-slate-300 rounded-xl z-20">
-          {showForm && <Form setShowForm={setShowForm} />}
+        <div className="absolute top-24 right-8 bg-gradient-to-b from-[#c4ffc0] to-slate-200 dark:bg-gradient-to-b dark:from-[#070f1e] dark:to-[#02183a] rounded-3xl z-20 border-2 border-zinc-600 ease-out duration-700 transition-opacity">
+          {showForm && <Form setShowForm={setShowForm} darkMode={darkMode} />}
         </div>
         <main className='dark:bg-[#111827] form:bg-[#000000cc] bg-green-100 px-10 md:px-20 lg:px-40 ' onClick={closeForm}>
           <section className="min-h-screen">
@@ -144,20 +144,20 @@ export default function Home() {
               </p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-              <div className='rounded-[38px] shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-500 pl-11'>
-                <p className="flex py-2 text-3xl text-center text-teal-800 pt-12 justify-end pr-5 font-acorn">Polls Project <span className="text-lg text-green-600 pl-3 -mb-10">Svelte</span></p>
+              <div className='rounded-[38px] shadow-xl shadow-slate-400 bg-[#bfe1a342] dark:bg-blue-100 basis-1/3 flex-1 flex flex-col dark:shadow-slate-500 pl-11'>
+                <p className="flex py-2 text-3xl text-center text-teal-800 pt-12 justify-end pr-5 font-acorn">Polls Project<span className="text-lg text-green-600 pl-3 -mb-10">Svelte</span></p>
                 <Image src={web1} className='rounded-2xl object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' />
               </div>
-              <div className='rounded-[38px] shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-500 pl-11'>
+              <div className='rounded-[38px] shadow-xl shadow-slate-400 bg-[#bfe1a342] dark:bg-orange-100 basis-1/3 flex-1 flex flex-col dark:shadow-slate-500 pl-11'>
                 <p className="flex py-2 text-3xl text-center text-teal-800 pt-12 justify-end pr-5 font-acorn">E Commerce <span className="text-lg text-green-600 pl-3 -mb-10">MERN</span></p>
                 <Image src={web2} className='rounded-2xl object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' />
               </div>
-              <div className='rounded-[38px] shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-500 pl-11'>
+              <div className='rounded-[38px] shadow-xl shadow-slate-400 bg-[#bfe1a342] dark:bg-violet-100 basis-1/3 flex-1 flex flex-col dark:shadow-slate-500 pl-11'>
                 <p className="flex py-2 text-3xl text-center text-teal-800 pt-12 justify-end pr-5 font-acorn">Blog App <span className="text-lg text-green-600 pl-3 -mb-10">MEEN</span></p>
                 <Image src={web3} className='rounded-2xl object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' />
               </div>
-              <div className='rounded-[38px] shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-500 pl-11'>
-                <p className="flex py-2 text-3xl text-center text-teal-800 pt-12 justify-end pr-5 font-acorn">Task App <span className="text-lg text-green-600 pl-3 -mb-10">MERN</span></p>
+              <div className='rounded-[38px] shadow-xl shadow-slate-400 bg-[#bfe1a342] basis-1/3 flex-1 dark:bg-yellow-100 flex flex-col dark:shadow-slate-500 pl-11'>
+                <p className="flex py-2 text-3xl text-center  text-teal-800 pt-12 justify-end pr-5 font-acorn">Task App <span className="text-lg text-green-600 pl-3 -mb-10">MERN</span></p>
                 <Image src={web4} className='rounded-2xl object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' />
               </div>
             </div>
@@ -168,11 +168,11 @@ export default function Home() {
               Here are a few of my recent projects that are in progress.
             </p>
             <div className='flex flex-col gap-10 lg:flex-row lg:flex-wrap py-9'>
-            <div className='rounded-[38px] shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-500 pl-11'>
+              <div className='rounded-[38px] shadow-xl shadow-slate-400 bg-[#bfe1a342] dark:bg-cyan-100 basis-1/3 flex-1 flex flex-col dark:shadow-slate-500 pl-11'>
                 <p className="flex py-2 text-3xl text-center text-teal-800 pt-12 justify-end pr-5 font-acorn">Leetcode Clone <span className="text-lg text-green-600 pl-3 -mb-10">MERN</span></p>
                 <Image src={web5} className='rounded-2xl object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' />
               </div>
-              <div className='rounded-[38px] shadow-2xl bg-gradient-to-r from-cyan-400 to-teal-300 basis-1/3 flex-1 flex flex-col dark:shadow-slate-500 pl-11'>
+              <div className='rounded-[38px] shadow-xl shadow-slate-400 bg-[#bfe1a342] dark:bg-rose-100 basis-1/3 flex-1 flex flex-col dark:shadow-slate-500 pl-11'>
                 <p className="flex py-2 text-3xl text-center text-teal-800 pt-12 justify-end pr-5 font-acorn">PayTM Clone <span className="text-lg text-green-600 pl-3 -mb-10">MERN</span></p>
                 <Image src={web6} className='rounded-2xl object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' />
               </div>

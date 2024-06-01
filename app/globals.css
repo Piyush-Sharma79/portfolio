@@ -33,7 +33,11 @@
   src: url('../public/acorn-Bold.otf');
 
 }
+::selection{
+  background: rgb(21, 130, 121);
+  color: #e7eada;
 
+}
 
 h1 {
   position: relative;

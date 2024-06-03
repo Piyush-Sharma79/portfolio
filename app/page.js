@@ -41,7 +41,7 @@ export default function Home() {
         <main className='dark:bg-[#111827] form:bg-[#000000cc] bg-green-100 px-10 md:px-20 lg:px-40 ' onClick={closeForm}>
           <section className="min-h-screen">
             <nav className='py-10 flex justify-between'>
-              <h1 className='text-xl dark:text-white '>Piyush</h1>
+              <h1 className='hidden min-[470px]:block text-xl dark:text-white '>Piyush</h1>
               <ul className='flex items-center'>
                 <li>
                   <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:invert' />
@@ -51,7 +51,8 @@ export default function Home() {
               </ul>
             </nav>
             <div className='text-center p-4 '>
-              <h1 className='text-9xl py-2 text-teal-600 dark:text-teal-400 font-bold md:text-9xl font-acorn'>Piyush</h1>
+              <h1 className='text-8xl
+              py-2 text-teal-600 dark:text-teal-400 font-bold md:text-9xl font-acorn'>Piyush</h1>
               <h3 className='text-3xl font-acorn py-2 text-teal-700 font-semibold dark:text-white'>Full Stack Developer</h3>
               <p className='text-xl py-5 leading-8 text-gray-800 md:text-2xl max-w-lg mx-auto dark:text-white'>
                 I code beautifully simple things, and I love what I do.
@@ -161,7 +162,7 @@ export default function Home() {
                 <Image src={web4} className='rounded-2xl object-cover flex-1' width={'100%'} height={'100%'} layout='responsive' />
               </div>
             </div>
-            <h3 className='text-8xl font-bold py-1 text-center text-teal-600 font-acorn'>
+            <h3 className='text-6xl md:text-8xl font-bold py-1 text-center text-teal-600 font-acorn'>
               In Progress
             </h3>
             <p className='text-md py-2 leading-8 text-gray-80 dark:text-white text-center mb-9 text-2xl'>

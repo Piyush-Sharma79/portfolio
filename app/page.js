@@ -46,7 +46,7 @@ export default function Home() {
                 <li>
                   <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:invert' />
                 </li>
-                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/CV-1.pdf" target="_blank" download>Resume</Link></li>
+                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/CV_off_outside.pdf" target="_blank" download>Resume</Link></li>
                 <li><button className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 cursor-pointer" onClick={() => setShowForm(!showForm)}>Contact Me</button></li>
               </ul>
             </nav>

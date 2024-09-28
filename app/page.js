@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
+import { FaLocationDot } from "react-icons/fa6";
 import { AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
 import { FaGithub } from 'react-icons/fa6';
 import Image from 'next/image';
@@ -57,7 +58,16 @@ export default function Home() {
               <p className='text-xl py-5 leading-8 text-gray-800 md:text-2xl max-w-lg mx-auto dark:text-white'>
                 I code beautifully simple things, and I love what I do.
               </p>
+              <div className=''>
+              <div className='text-3xl flex justify-center gap-16 py-3 text-gray-600 dark:invert'>
+                <FaLocationDot />
+              </div>
+              <p className='text-xl leading-8 text-gray-800 md:text-2xl max-w-lg mx-auto dark:text-white'>
+                New Delhi,India
+              </p>
+              </div>
             </div>
+            
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:invert'>
               <a href="https://x.com/PiyushShar70725" target="_blank"><AiFillTwitterCircle /></a>
               <a href="https://www.linkedin.com/in/piyush-sharma-394305257/" target="_blank"><AiFillLinkedin /></a>
@@ -77,8 +87,7 @@ export default function Home() {
               <p className='text-md py-2 leading-8 text-gray-80 dark:text-white text-center text-2xl'>
                 I'm a Full Stack Developer working remotely from New Delhi, India.
               </p>
-              <p className='dark:text-white text-center text-2xl'>
-                I have a passion for web design and love to create for web and mobile devices. I have a strong foundation in web development and design and I am always looking to learn more and improve my skills.
+              <p className='dark:text-white text-center text-2xl'>I have a strong foundation in web development and design and I am always looking to learn more and improve my skills.
               </p>
             </div>
             <div className="lg:flex gap-10">

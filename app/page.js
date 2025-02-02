@@ -102,7 +102,7 @@ export default function Home() {
                   I create beautiful designs for websites and mobile applications that are easy to use and visually appealing using my frontend skills
                 </p>
                 <h4 className="py-4 font-acorn text-teal-600 text-xl">Design Tools & frontend frameworks I Use</h4>
-                <p className="text-gray-800 py-1 text-lg">Figma</p>
+                <p className="text-gray-800 py-1 text-lg ">Figma</p>
                 <p className="text-gray-800 py-1 text-lg">Photoshop</p>
                 <p className="text-gray-800 py-1 text-lg">React</p>
                 <p className="text-gray-800 py-1 text-lg">Tailwind CSS</p>

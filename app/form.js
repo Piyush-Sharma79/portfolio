@@ -15,7 +15,7 @@ export default function Form(props) {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_y7etebz', 'contact_form', form.current, {publicKey : 't-WwQ3H8W3GJ3Ukp5'})
+      emailjs.sendForm('service_7h0s5ri', 'contact_form', form.current, {publicKey : 't-WwQ3H8W3GJ3Ukp5'})
         .then(() => {
             alert("Message sent successfully")
         }, (error) => {

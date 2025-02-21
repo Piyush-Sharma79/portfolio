@@ -69,7 +69,7 @@ export default function Home() {
             </div>
             
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:invert'>
-              <a href="https://x.com/PiyushShar70725" target="_blank"><AiFillTwitterCircle /></a>
+              <a href="https://x.com/liebweltschmerz" target="_blank"><AiFillTwitterCircle /></a>
               <a href="https://www.linkedin.com/in/piyush-sharma-394305257/" target="_blank"><AiFillLinkedin /></a>
               <a href="https://github.com/Piyush-Sharma79" target="_blank"><FaGithub /></a>
 

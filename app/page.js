@@ -99,20 +99,14 @@ export default function Home() {
                 </p>
               </div>
             </div>
+            
+            <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:invert'>
+              <a href="https://x.com/PiyushShar70725" target="_blank"><AiFillTwitterCircle /></a>
+              <a href="https://www.linkedin.com/in/piyush-sharma-394305257/" target="_blank"><AiFillLinkedin /></a>
+              <a href="https://github.com/Piyush-Sharma79" target="_blank"><FaGithub /></a>
 
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:invert">
-              <a href="https://x.com/PiyushShar70725" target="_blank">
-                <AiFillTwitterCircle />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/piyush-sharma-394305257/"
-                target="_blank"
-              >
-                <AiFillLinkedin />
-              </a>
-              <a href="https://github.com/Piyush-Sharma79" target="_blank">
-                <FaGithub />
-              </a>
+
+
             </div>
             <div className="relative mt-3 mx-auto bg-gradient-to-b from-teal-500 rounded-full w-[250px] h-[250px] overflow-hidden">
               <Image src={deved} layout="fill" objectFit="cover" />
